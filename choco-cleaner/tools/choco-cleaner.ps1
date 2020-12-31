@@ -240,7 +240,7 @@ if ($ENV:ChocolateyInstall -Match $ENV:SystemDrive -and $ENV:SystemDrive -eq "C:
 Write-Host "Found Choco-Cleaner.ps1 useful?" -ForegroundColor White
 Write-Host "Buy me a beer at https://www.paypal.me/bcurran3donations" -ForegroundColor White
 Write-Host "Become a patron at https://www.patreon.com/bcurran3" -ForegroundColor White
-Start-Sleep -s 10
+Start-Sleep -s 1
 
 # TDL
 # Recursively delete Chocolatey and NuGet cache files from all user directories
